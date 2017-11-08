@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap/3.3.6/css/bootstrap.min.css"> <script src="jquery/1.12.0/jquery.min.js"></script>
+        <script src="bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="css/main.css">
+        <title>G.Y.M. | Watch</title>
+    </head>
+    <body>
+        
+        <header>
+            
+            <nav id="topnav" class="navbar-inverse navbar-fixed-top">
+                <div id="layout" class="container">
+                    <div id="navbar-header" class="navbar=header">
+                        <a id="navbar-brand" class="navbar-brand" href="#">
+                            <i class="glyphicon glyphicon-film"></i>  Get Your Movie
+                        </a>
+                        
+                        <button class="navbar-toggle collapsed" data-toggle="collapse" data-
+                        target="#navbar-items">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <div id="navbar-items" class="navbar-right navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="lib.html">Library</a></li>
+                            <li><a href="watch.html">Watch List</a></li>
+                            <li><a href="logindetails.html">Login Details</a></li>
+                            <li class="active"><a href="surprise.html">Surprise Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+        
+        <div id="background">
+            <div class="container">
+                <div class="surp">
+                    <h1>Not sure what to watch?</h1>
+                    <h1>Click "Surprise Me!" and we'll choose for you!</h1>
+
+
+                    <div id="randomise" class="row">
+                    <button onclick="callrandom()">Surprise Me!</button>
+                    <div id ="random" class ="output"></div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    
+        <script src="js/surprise.js"></script>
+        
+    </body>
+</html>

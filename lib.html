@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap/3.3.6/css/bootstrap.min.css"> 
+        <script src="jquery/1.12.0/jquery.min.js"></script>
+        <script src="bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="css/main.css">
+        <title>G.Y.M. | Library</title>
+    </head>
+    <body>
+        
+        <header>
+            
+            <nav id="topnav" class="navbar-inverse navbar-fixed-top">
+                <div id="layout" class="container">
+                    <div id="navbar-header" class="navbar=header">
+                        <a id="navbar-brand" class="navbar-brand" href="#">
+                            <i class="glyphicon glyphicon-film"></i>  Get Your Movie
+                        </a>
+                        
+                        <button class="navbar-toggle collapsed" data-toggle="collapse" data-
+                        target="#navbar-items">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    
+                    <div id="navbar-items" class="navbar-right navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="home.html">Home</a></li>
+                            <li class="active"><a href="lib.html">Library</a></li>
+                            <li><a href="watch.html">Watch List</a></li>
+                            <li><a href="logindetails.html">Login Details</a></li>
+                            <li><a href="surprise.html">Surprise Me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            
+        </header>
+        
+        <div id="background2">
+            
+        <div class="container">
+            
+            <div id="welcome" class="row">
+                <div>
+                    <div id="message" class="col-xs-12 col-lg-12">
+                       <h1>Please find our available Movies, Series and Cartoons below:</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="Movies">
+                
+                <div class="alert alert-warning col-12">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                      Please use our <strong>filter</strong> below if you're looking for anything specific. <span class="glyphicon glyphicon-search"></span>
+                   </div>
+                
+                <div class="row">
+                
+               <div class="filtercontent">
+                   <select name="filter" id="filter"> 
+                                    <option>RATING</option>
+                                    <option value="ALL">All Movies</option> 
+                                    <option value="rate1">User 80-85</option> 
+                                    <option value="rate2">User 86-90</option> 
+                                    <option value="rate3">User 91-95</option> 
+                                    <option value="rate4">User 96-100</option> 
+                                    <option value="IMDB1">IMDB 7.0-7.9</option>  
+                                    <option value="IMDB2">IMDB 8.0-8.9</option> 
+                                    <option value="IMDB3">IMDB 9.0-9.9</option>
+                   </select>
+                   
+                   <input id="filterSubmit" type="submit" name="submit" value="filter">
+                   
+               </div>
+                
+                <div class="filtercontent">
+                   <select name="filter" id="filter"> 
+                                    <option>GENRE</option>
+                                    <option value="ALL">All Movies</option> 
+                                    <option value="genre1">Adventure</option>
+                                    <option value="genre2">Comedy</option>
+                                    <option value="genre3">Drama</option> 
+                                    <option value="genre4">Horror</option>
+                                    <option value="genre5">Mystery</option>
+                                    <option value="genre6">Romance</option>
+                                    <option value="genre7">SciFi</option>
+                                    <option value="genre8">Sitcom</option>
+                                    <option value="genre9">Superhero</option>
+                                    <option value="genre10">Thriller</option>
+                   </select>
+                   
+                   <input id="filterSubmit" type="submit" name="submit" value="filter">
+                   
+               </div>
+                
+                <div class="filtercontent">
+                   <select name="filter" id="filter"> 
+                                    <option>DECADE</option>
+                                    <option value="ALL">All Movies</option>
+                                    <option value="70">1970s</option> 
+                                    <option value="80">1980s</option>
+                                    <option value="90">1990s</option>
+                                    <option value="00">2000s</option>
+                                    <option value="10">2010s</option>
+                   </select>
+                   
+                   <input id="filterSubmit" type="submit" name="submit" value="filter">
+                   
+               </div>
+                    
+                </div>
+                
+                <div class="alert alert-info col-12">
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                      <strong>Hey There!</strong> Click the "<span class="glyphicon glyphicon-heart"></span>" to add the show to your <a href="watch.html" class="alert-link">Watch List</a> and the "<span class="glyphicon glyphicon-plus"></span>" to find out more about it!.
+                   </div>
+                    
+                <div id="list" class="row latest">
+                    
+                    <!--<div id="new" div class="choice col-xs-6 col-md-4 col-lg-3">
+                   <img src="" class="img-responsive" alt="movie1" height="236">
+                        <div class="well well-sm">
+                            <div id="title19"></div>
+                            <div id="date19"></div>
+                        <button class="btn btn-warning btn-primary"><a><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>-->
+                    
+                    <div id="choice1" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="sup" data-category="10s" data-category="90" data-category="7">
+                   <div id="poster"><img src="img/ww.jpg" class="img-responsive" alt="movie1" height="236"></div>
+                        <div class="well well-sm">
+                            <div id="title"></div>
+                            <div id="date"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/ww.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice2" div class="choice col-xs-6 col-md-4 col-lg-3"  data-category="dra" data-category="com" data-category="10s" data-category="95" data-category="8">
+                   <img src="img/tiu.jpg" class="img-responsive" alt="series1" height="236">
+                        <div class="well well-sm">
+                            <div id="title2"></div>
+                            <div id="date2"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/tiu.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice3" div class="choice col-xs-6 col-md-4 col-lg-3"  data-category="mys" data-category="10s" data-category="95" data-category="7">
+                   <img src="img/riv.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title3"></div>
+                            <div id="date3"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/riv.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice4" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="com" data-category="sit" data-category="10s" data-category="100" data-category="9">
+                   <img src="img/rnm.jpg" class="img-responsive" alt="movie1" height="236">
+                        <div class="well well-sm">
+                            <div id="title4"></div>
+                            <div id="date4"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/rnm.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice5" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="adv" data-category="10s" data-category="95" data-category="8">
+                   <img src="img/at.jpg" class="img-responsive" alt="series1" height="236">
+                        <div class="well well-sm">
+                            <div id="title5"></div>
+                            <div id="date5"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/adv.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice6" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="sit" data-category="10s" data-category="95" data-category="8">
+                   <img src="img/fg.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title6"></div>
+                            <div id="date6"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/fam.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice7" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="dra" data-category="10s" data-category="90" data-category="7">
+                   <img src="img/bb.jpg" class="img-responsive" alt="movie1" height="236">
+                        <div class="well well-sm">
+                            <div id="title7"></div>
+                            <div id="date7"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/bb.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice8" div class="choice col-xs-6 col-md-4 col-lg-3"  data-category="sup" data-category="10s" data-category="90" data-category="8">
+                   <img src="img/ave.jpg" class="img-responsive" alt="series1" height="236">
+                        <div class="well well-sm">
+                            <div id="title8"></div>
+                            <div id="date8"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/ave.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice9" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="sci" data-category="00s" data-category="90" data-category="7">
+                   <img src="img/ava.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title9"></div>
+                            <div id="date9"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/ava.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice10" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="dra" data-category="00s" data-category="95" data-category="8">
+                   <img src="img/70.jpg" class="img-responsive" alt="movie1" height="236">
+                        <div class="well well-sm">
+                            <div id="title10"></div>
+                            <div id="date10"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/70.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice11" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="hor" data-category="00s" data-category="95" data-category="8">
+                   <img src="img/ctcd.jpg" class="img-responsive" alt="series1" height="236">
+                        <div class="well well-sm">
+                            <div id="title11"></div>
+                            <div id="date11"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/cou.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice12" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="thr" data-category="00s" data-category="90" data-category="8">
+                   <img src="img/mom.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title12"></div>
+                            <div id="date12"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/mem.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice13" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="rom" data-category="com" data-category="10s" data-category="95" data-category="8">
+                   <img src="img/fgp.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title13"></div>
+                            <div id="date13"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/for.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice14" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="thr" data-category="90s" data-category="90" data-category="8">
+                   <img src="img/pf.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title14"></div>
+                            <div id="date14"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/pul.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice15" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="dra" data-category="com" data-category="80s" data-category="95" data-category="7">
+                   <img src="img/et.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title15"></div>
+                            <div id="date15"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/et.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice16" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="adv" data-category="mys" data-category="80s" data-category="85" data-category="7">
+                   <img src="img/bc.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title16"></div>
+                            <div id="date16"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/bre.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice17" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="sci" data-category="mys" data-category="70s" data-category="95" data-category="8">
+                   <img src="img/sw.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title17"></div>
+                            <div id="date17"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/sw.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                    
+                    <div id="choice18" div class="choice col-xs-6 col-md-4 col-lg-3" data-category="dra" data-category="mys" data-category="70s" data-category="90" data-category="8">
+                   <img src="img/js.jpg" class="img-responsive" alt="cartoon1" height="236">
+                        <div class="well well-sm">
+                            <div id="title18"></div>
+                            <div id="date18"></div>
+                        <button class="btn btn-warning btn-primary"><a href="list/jaw.html"><span class="glyphicon glyphicon-plus"></span></a></button>
+                        <button class="btn btn-warning btn-primary"><span class="glyphicon glyphicon-heart"></span></button></div>
+                    </div>
+                </div>
+                
+                <div id="forms1" class="col-12">
+                        <h2>Request a Show</h2>
+							
+                        <div class="name1">
+                            <form name="name1"> 
+                                <label for="name1">Show Name:</label> 
+                                <input id="name1" type="text"> 
+                            </form>
+                    </div>
+                        
+                        <div class="button1">
+                            <button type="button" onclick="request()">Request!</button>
+                        </div>
+                        
+                        <div id="showrequested"></div>
+                </div>
+                
+            </div> <!--movies-->
+                
+            
+        
+        </div>
+        </div>
+        
+        <script src="js/lib.js"></script>
+        
+    </body>
+</html>

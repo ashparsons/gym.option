@@ -1,0 +1,161 @@
+/*STYLE*/
+.row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*LOGIN*/
+
+#background{
+    width: 100%;
+    height: auto;
+    background: url(../img/back.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#background2{
+    width: 100%;
+    height: auto;
+    background: url(../img/back2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#login{
+    width: 300px;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    background: url(../img/pink.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    margin-top: -25px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 45px;
+    background: url(../img/logo2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading h1{
+    color: hotpink;
+    padding-top: 14px;
+    margin-left: 50px;
+}
+
+form{
+    margin-left: 35px;
+    color: black;
+}
+
+button{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.name{
+    margin-left: 65px;
+}
+
+.password{
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.password2{
+    -webkit-text-security: disc;
+}
+
+.mail{
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+.mail2{
+    margin-left: 42px;
+}
+
+input{
+    margin-left: 25px;
+}
+
+/*HOME*/
+
+header{
+    margin-bottom: 20px;
+}
+
+a{
+    color: hotpink;
+}
+
+.heading h2{
+    color: hotpink;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+
+.poster1{
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.poster2{
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.poster3{
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*LIB*/
+
+.well{
+    margin-top: 10px;
+}
+
+.filtercontent{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*DETAILS*/
+
+#access{
+    margin-left: 85px;
+    margin-bottom: 20px;
+}
+
+.surp{
+    padding-top: 25px;
+}
+
+/*LIST PAGES*/
+
+#information{
+    padding-top: 50px;
+}
+
+#trailer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
