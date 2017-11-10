@@ -134,27 +134,28 @@ a{
 
 .well{
     margin-top: 10px;
+    width: 77%;
 }
 
 .filtercontent{
     text-align: center;
     padding-bottom: 20px;
     float: left;
-    margin-left: 150px;
+    margin-left: 170px;
 }
 
 .filtercontent2{
     text-align: center;
     padding-bottom: 20px;
     float: left;
-    margin-left: 150px;
+    margin-left: 170px;
 }
 
 .filtercontent3{
     text-align: center;
     padding-bottom: 20px;
     float: left;
-    margin-left: 150px;
+    margin-left: 170px;
 }
 
 /*DETAILS*/
