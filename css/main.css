@@ -137,9 +137,24 @@ a{
 }
 
 .filtercontent{
-    width: 100%;
     text-align: center;
     padding-bottom: 20px;
+    float: left;
+    margin-left: 150px;
+}
+
+.filtercontent2{
+    text-align: center;
+    padding-bottom: 20px;
+    float: left;
+    margin-left: 150px;
+}
+
+.filtercontent3{
+    text-align: center;
+    padding-bottom: 20px;
+    float: left;
+    margin-left: 150px;
 }
 
 /*DETAILS*/
@@ -153,6 +168,10 @@ a{
     padding-top: 25px;
 }
 
+#edit{
+    margin-left: 65px;
+}
+
 /*LIST PAGES*/
 
 #information{
@@ -162,4 +181,5 @@ a{
 #trailer{
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 400px;
 }
