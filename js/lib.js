@@ -224,18 +224,18 @@ $(function(){
 $(function(){
     //filters
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "ALL") {
+        if ($("#filter2").val() === "ALL2") {
             $(".choice").show();
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre1") {
+        if ($("#filter2").val() === "genre1") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "adv") {
@@ -245,10 +245,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre2") {
+        if ($("#filter2").val() === "genre2") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "com") {
@@ -258,10 +258,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre3") {
+        if ($("#filter2").val() === "genre3") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "dra") {
@@ -271,10 +271,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre4") {
+        if ($("#filter2").val() === "genre4") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "hor") {
@@ -284,10 +284,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre5") {
+        if ($("#filter2").val() === "genre5") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "mys") {
@@ -297,10 +297,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre6") {
+        if ($("#filter2").val() === "genre6") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "rom") {
@@ -310,10 +310,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre7") {
+        if ($("#filter2").val() === "genre7") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "sci") {
@@ -323,10 +323,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre8") {
+        if ($("#filter2").val() === "genre8") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "sit") {
@@ -336,10 +336,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre9") {
+        if ($("#filter2").val() === "genre9") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "sup") {
@@ -349,10 +349,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit2").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "genre10") {
+        if ($("#filter2").val() === "genre10") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "thr") {
@@ -367,18 +367,18 @@ $(function(){
 $(function(){
     //filters
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit3").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "ALL") {
+        if ($("#filter3").val() === "ALL3") {
             $(".choice").show();
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit3").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "70s") {
+        if ($("#filter3").val() === "70s") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "70") {
@@ -388,10 +388,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit3").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "80s") {
+        if ($("#filter3").val() === "80s") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "80") {
@@ -401,10 +401,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit3").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "90s") {
+        if ($("#filter3").val() === "90s") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "90") {
@@ -414,10 +414,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit3").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "00s") {
+        if ($("#filter3").val() === "00s") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "00") {
@@ -427,10 +427,10 @@ $(function(){
         }
     });
     
-    $("#filterSubmit").on("click", function(event) {
+    $("#filterSubmit3").on("click", function(event) {
         event.preventDefault();
         
-        if ($("#filter").val() === "10s") {
+        if ($("#filter3").val() === "10s") {
             $(".choice").hide();
             $(".choice").each(function() {
                 if ($(this).data("category") === "10") {

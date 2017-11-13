@@ -132,7 +132,7 @@ a{
 
 /*LIB*/
 
-.well{
+#list .well{
     margin-top: 10px;
     width: 77%;
 }
