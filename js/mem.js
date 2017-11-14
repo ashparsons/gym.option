@@ -49,3 +49,7 @@ window.onload = function extra(){
     document.getElementById("user12").textContent = movies[6].userrate;
    
 };
+
+$(document).ready(function() {
+    $("img").attr("src", "../img/mom.jpg");
+});

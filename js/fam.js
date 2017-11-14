@@ -47,3 +47,7 @@ window.onload = function extra(){
     document.getElementById("user6").textContent = cartoons[3].userrate;
     
 };
+
+$(document).ready(function() {
+    $("img").attr("src", "../img/fg.jpg");
+});

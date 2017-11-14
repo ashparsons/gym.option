@@ -47,3 +47,7 @@ window.onload = function extra(){
     document.getElementById("user3").textContent = series[2].userrate;
     
 };
+
+$(document).ready(function() {
+    $("img").attr("src", "../img/riv.jpg");
+});

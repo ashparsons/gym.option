@@ -47,3 +47,7 @@ window.onload = function extra(){
     document.getElementById("user8").textContent = movies[8].userrate;
     
 };
+
+$(document).ready(function() {
+    $("img").attr("src", "../img/ave.jpg");
+});

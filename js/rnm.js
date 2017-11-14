@@ -46,3 +46,7 @@ window.onload = function extra(){
     document.getElementById("user4").textContent = cartoons[1].userrate;
     
 };
+
+$(document).ready(function() {
+    $("img").attr("src", "../img/rnm.jpg");
+});

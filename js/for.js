@@ -49,3 +49,7 @@ window.onload = function extra(){
     document.getElementById("user13").textContent = movies[5].userrate;
    
 };
+
+$(document).ready(function() {
+    $("img").attr("src", "../img/fgp.jpg");
+});

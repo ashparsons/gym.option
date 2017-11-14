@@ -47,3 +47,7 @@ window.onload = function extra(){
     document.getElementById("user11").textContent = cartoons[0].userrate;
     
 };
+
+$(document).ready(function() {
+    $("img").attr("src", "../img/ctcd.jpg");
+});

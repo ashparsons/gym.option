@@ -47,3 +47,7 @@ window.onload = function extra(){
     document.getElementById("user2").textContent = series[3].userrate;
     
 };
+
+$(document).ready(function() {
+    $("img").attr("src", "../img/tiu.jpg");
+});

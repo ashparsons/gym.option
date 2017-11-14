@@ -47,3 +47,7 @@ window.onload = function extra(){
     document.getElementById("user7").textContent = series[1].userrate;
     
 };
+
+$(document).ready(function() {
+    $("img").attr("src", "../img/bb.jpg");
+});
