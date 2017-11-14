@@ -244,7 +244,7 @@ a{
 
 #forms1{
     margin-left: 5px;
-    background-color: green;
+    background-color: floralwhite;
     height: 120px;
     width: 600px;
 }
@@ -259,7 +259,15 @@ a{
 }
 
 
+.output{
+    color: white;
+    font-size: 100px;
+    margin-left: 260px;
+}
 
+#sup-butt{
+    margin-left: 600px;
+}
 
 .button1{
     margin-left: 280px;
