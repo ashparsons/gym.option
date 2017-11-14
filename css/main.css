@@ -28,7 +28,7 @@ h3{
 
 #background{
     width: 100%;
-    height: auto;
+    height: 100px;
     background: url(../img/backgroundz.jpg);
     background-size: cover;
     background-position: center;
@@ -56,13 +56,13 @@ h3{
     margin-top: 60px;
     margin-left: 40px;
     margin-bottom: 80px;
-    background-image: url(../img/pink.png);
+    background-image: url(../img/backgroundz.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .heading{
-    background-color: darkorange;
+    background-color: black;
     height: 70px;
     width: 100%;
     margin-top: -25px;
@@ -72,13 +72,13 @@ h3{
     width: 200px;
     height: 200px;
     margin-left: 45px;
-    background: url(../img/logo2.png);
+    background: url(../img/logo.png);
     background-size: cover;
     background-position: center;
 }
 
 .heading h1{
-    color: black;
+    color: darkorange;
     padding-top: 14px;
     margin-left: 50px;
 }
