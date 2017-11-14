@@ -50,7 +50,7 @@ h3{
 
 #background{
     width: 100%;
-    height:auto;
+    min-height: 600px;
     background: url(../img/backgroundz.jpg);
     background-size: cover;
     background-position: center;
