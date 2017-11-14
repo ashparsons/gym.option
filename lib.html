@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" href="bootstrap/3.3.6/css/bootstrap.min.css"> 
         <script src="jquery/1.12.0/jquery.min.js"></script>
         <script src="bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -57,7 +58,7 @@
             <div id="Movies">
                 
                 <div class="alert alert-warning col-12">
-                    <a href="#" class="close" data-dismiss="alert" aria-label="close"></a>
+                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                       Please use our <strong>filter</strong> below if you're looking for anything specific. <span class="glyphicon glyphicon-search"></span>
                    </div>
                 
@@ -143,7 +144,7 @@
                     </div>
                     
                     <div id="choice2" div class="choice col-xs-6 col-md-4 col-lg-3"  data-category="dra" data-category="com" data-category="10s" data-category="95" data-category="eig">
-                   <img src="img/tiu.jpg" class="img-responsive" alt="series1" height="236">
+                   <img id="image_pull" src="" class="img-responsive" alt="series1" height="236">
                         <div class="well well-sm">
                             <div id="title2"></div>
                             <div id="date2"></div>
@@ -319,12 +320,6 @@
         
         </div>
         </div>
-        
-        <div class="footer">
-            
-            <div class="link">
-                <h5><a href="#">Ashleigh Parsons  |  Jonathan Ireland   |   Zinzi Something</a></h5>
-        </div><!--footer-->
         
         <script src="js/lib.js"></script>
         <script src="js/localstorage.js"></script>
