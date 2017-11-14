@@ -29,6 +29,10 @@ h3{
     background-size: cover;
     background-position: center;
 }
+.container{
+    width: 100%;
+    background-image: url(../img/background%20bruv.jpg);
+}
 
 #space{
     padding-top: 150px;
