@@ -75,7 +75,7 @@ h3{
 #login{
     margin: 0, auto;
     width: 500px;
-    height: 1000px;
+    height: 750px;
     margin-left: 40px;
     background-image: url(../img/backgroundz.jpg);
     background-size: cover;
@@ -200,7 +200,7 @@ header{
 }
 
 a{
-    color: hotpink;
+    color: orange;
 }
 
 .heading h2{
