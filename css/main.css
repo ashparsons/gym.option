@@ -50,16 +50,20 @@ h3{
 
 .link{
     width: auto;
-    height: 50px;
+    height: 33px;
     margin-top: -20px;
     background-color: dimgrey;
 }
 
-.link h3{
+.link h5{
     color: black;
     margin-left: 300px;
+    
+    font-size: 27px;
         
 }
+
+
 
 #background{
     width: 100%;
@@ -237,6 +241,30 @@ a{
 }
 
 /*LIB*/
+
+#forms1{
+    margin-left: 5px;
+    background-color: green;
+    height: 120px;
+    width: 600px;
+}
+
+#forms1 h2{
+    margin-left: 217px;
+}
+
+.name1{
+    margin-left: 50px;
+    
+}
+
+
+
+
+.button1{
+    margin-left: 280px;
+}
+
 
 #list .well{
     margin-top: 10px;
