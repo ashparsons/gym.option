@@ -7,7 +7,9 @@
 /*LOGIN*/
 
 .page-butt{
-	color: black;
+	color: deepskyblue;
+    margin-left: 38px;
+    margin-top: -4px;
 }
 
 .page-butt:hover{
@@ -67,6 +69,16 @@ h3{
     width: 100%;
     margin-top: -25px;
 }
+
+.headingm{
+    background-color: black;
+    height: 70px;
+    width: 50%;
+    margin-top: -25px;
+    margin-left: 80px;
+    border-style: double;
+}
+
 
 .logo{
     width: 200px;
