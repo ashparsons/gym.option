@@ -52,16 +52,15 @@ h3{
 
 #login{
     width: 500px;
-    height: 100%;
-    border-radius: 25px;
-    margin-top: 60px;
+    height: 1000px;
     margin-left: 40px;
-    margin-bottom: 80px;
     background-image: url(../img/backgroundz.jpg);
     background-size: cover;
     background-position: center;
 }
-
+.form-content{
+    margin-top: 20%;
+}
 .heading{
     background-color: black;
     height: 70px;
@@ -72,6 +71,7 @@ h3{
 .logo{
     width: 200px;
     height: 200px;
+    
     margin-left: 45px;
     background: url(../img/GYM%20LOGO%20GLOW.png);
     background-size: cover;
@@ -83,6 +83,8 @@ h3{
     color: orange;
     padding-top: 14px;
     margin-left: 50px;
+    font-size: 18pt;
+    margin-left: 200px;
 }
 .button-con{
     margin-top: 50px;
@@ -114,14 +116,17 @@ button a{
     
 }
 .name{
-    margin-left:160px;
+    margin-left:175px;
     color: dimgray;
+    font-weight: normal;
+    letter-spacing: 2px;
 }
 
 .password{
-    margin-left: 160px;
+    margin-left: 180px;
     margin-top: 20px;
     color: dimgrey;
+    letter-spacing: 2px;
 }
 
 .password2{
@@ -145,7 +150,9 @@ input{
     background-color: darkgrey;
     margin-left: 45px;
     border: white;
-    opacity: 0.5;
+    opacity: 0.8;
+    color: white;
+    border-radius: 5px;
     
     
 }
