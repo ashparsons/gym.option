@@ -6,6 +6,23 @@
 
 /*LOGIN*/
 
+.page-butt{
+	color: black;
+}
+
+
+h1{
+	color: orange;
+}
+
+h2{
+	color: darkgray;
+}
+
+h3{
+	color: dimgray;
+}
+
 #background{
     width: 100%;
     height: auto;
@@ -21,7 +38,7 @@
 #background2{
     width: 100%;
     height: auto;
-    background: url(../img/back2.png);
+    background: url(../img/backgroundz.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -38,7 +55,7 @@
 }
 
 .heading{
-    background-color: black;
+    background-color: darkorange;
     height: 70px;
     width: 100%;
     margin-top: -25px;
@@ -107,7 +124,7 @@ a{
 }
 
 .heading h2{
-    color: hotpink;
+    color: black;
     padding-top: 20px;
     margin-left: 120px;
 }
