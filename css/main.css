@@ -137,7 +137,15 @@ a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.poster1:hover{
+	margin-left: -75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	
+	max-width: 100%;
+	
+	background-image: url(../img/movies%20hover.jpg);
+}
 .poster2{
     margin-left: 75px;
     margin-top: 20px;
