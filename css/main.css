@@ -28,7 +28,7 @@ h3{
 
 #background{
     width: 100%;
-    height: 100px;
+    height:auto;
     background: url(../img/backgroundz.jpg);
     background-size: cover;
     background-position: center;
@@ -96,11 +96,13 @@ button{
 
 .name{
     margin-left: 65px;
+    color: dimgray;
 }
 
 .password{
     margin-left: 65px;
     margin-top: 10px;
+    color: dimgrey;
 }
 
 .password2{
