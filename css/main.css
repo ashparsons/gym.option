@@ -121,6 +121,7 @@ h3{
     font-size: 18pt;
     margin-left: 200px;
 }
+
 .button-con{
     margin-top: 50px;
     
@@ -273,25 +274,37 @@ a{
     text-align: center;
     padding-bottom: 20px;
     float: left;
-    margin-left: 170px;
+    margin-left: 100px;
 }
 
 .filtercontent2{
     text-align: center;
     padding-bottom: 20px;
     float: left;
-    margin-left: 170px;
+    margin-left: 100px;
 }
 
 .filtercontent3{
     text-align: center;
     padding-bottom: 20px;
     float: left;
-    margin-left: 170px;
+    margin-left: 100px;
 }
 
 .choice1{
-    align-content: center;
+    align-content: center; 
+}
+
+.filtercontent input{
+    width: 100px;
+}
+
+.filtercontent2 input{
+    width: 100px;
+}
+
+.filtercontent3 input{
+    width: 100px;
 }
 
 /*DETAILS*/
