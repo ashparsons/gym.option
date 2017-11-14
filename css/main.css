@@ -10,7 +10,6 @@
 	color: black;
 }
 
-
 h1{
 	color: orange;
 }
@@ -71,7 +70,7 @@ h3{
 }
 
 .heading h1{
-    color: hotpink;
+    color: black;
     padding-top: 14px;
     margin-left: 50px;
 }
