@@ -186,7 +186,7 @@ $(function(){
         if ($("#filter").val() === "IMDB1") {
             $(".choice").hide();
             $(".choice").each(function() {
-                if ($(this).data("category") === "7") {
+                if ($(this).data("category") === "sev") {
                     $(this).show();
                 }
             });
@@ -199,7 +199,7 @@ $(function(){
         if ($("#filter").val() === "IMDB2") {
             $(".choice").hide();
             $(".choice").each(function() {
-                if ($(this).data("category") === "8") {
+                if ($(this).data("category") === "eig") {
                     $(this).show();
                 }
             });
@@ -212,7 +212,7 @@ $(function(){
         if ($("#filter").val() === "IMDB3") {
             $(".choice").hide();
             $(".choice").each(function() {
-                if ($(this).data("category") === "9") {
+                if ($(this).data("category") === "nin") {
                     $(this).show();
                 }
             });
@@ -441,3 +441,14 @@ $(function(){
     });
     
 });
+
+
+/*function show_image(src, width, height, alt) {
+    var img = document.createElement("img");
+    img.src = "../img/ww.jpg"
+    img.width = 150;
+    img.height = 236;
+    img.alt = poster ww;
+
+    document.body.appendChild("#poster");
+}*/
