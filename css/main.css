@@ -200,6 +200,7 @@ input{
     border-bottom-color: dimgrey;
     border-bottom-width: thin;
 }
+
 .img-responsive:hover{
     background-image: url(../img/)
     
@@ -285,7 +286,6 @@ a{
     
 }
 
-
 .output{
     color: white;
     font-size: 100px;
@@ -367,63 +367,83 @@ a{
     background-image: url(../img/backgroundz.jpg);
     border-color: black;
 }
+
 #date{
     color: grey;
 }
+
 #date1{
     color: grey;
 }
+
 #date2{
     color: grey;
 }
+
 #date3{
     color: grey;
 }
+
 #date4{
     color: grey;
 }
+
 #date5{
     color: grey;
 }
+
 #date6{
     color: grey;
 }
+
 #date7{
     color: grey;
 }
+
 #date8{
     color: grey;
 }
+
 #date9{
     color: grey;
 }
+
 #date10{
     color: grey;
 }
+
 #date11{
     color: grey;
 }
+
 #date12{
     color: grey;
 }
+
 #date13{
     color: grey;
 }
+
 #date14{
     color: grey;
 }
+
 #date15{
     color: grey;
 }
+
 #date16{
     color: grey;
 }
+
 #date17{
     color: grey;
 }
+
 #date18{
     color: grey;
 }
+
 #title{
     color: white;
 }
@@ -482,6 +502,96 @@ a{
 }
 #title18{
     color: white;
+}
+
+#poster:hover{
+    background-image: url(../img/WH.jpg);
+    margin-left: -120px;
+}
+
+#poster2:hover{
+    background-image: url(../img/TIUH.jpg);
+    margin-left: -120px;
+}
+
+#poster3:hover{
+    background-image: url(../img/RDH.jpg);
+    margin-left: -120px;
+}
+
+#poster4:hover{
+    background-image: url(../img/rnmh.jpg);
+    margin-left: -120px;
+}
+
+#poster5:hover{
+    background-image: url(../img/ADTH.jpg);
+    margin-left: -120px;
+}
+
+#poster6:hover{
+    background-image: url(../img/FGH.jpg);
+    margin-left: -120px;
+}
+
+#poster7:hover{
+    background-image: url(../img/BBH.jpg);
+    margin-left: -120px;
+}
+
+#poster8:hover{
+    background-image: url(../img/avth.jpg);
+    margin-left: -120px;
+}
+
+#poster9:hover{
+    background-image: url(../img/avth.jpg);
+    margin-left: -120px;
+}
+
+#poster10:hover{
+    background-image: url(../img/T7SH.jpg);
+    margin-left: -120px;
+}
+
+#poster11:hover{
+    background-image: url(../img/CRGH.jpg);
+    margin-left: -120px;
+}
+
+#poster12:hover{
+    background-image: url(../img/MMH.jpg);
+    margin-left: -120px;
+}
+
+#poster13:hover{
+    background-image: url(../img/FRGH.jpg);
+    margin-left: -120px;
+}
+
+#poster14:hover{
+    background-image: url(../img/PLPFH.jpg);
+    margin-left: -120px;
+}
+
+#poster15:hover{
+    background-image: url(../img/ETH.jpg);
+    margin-left: -120px;
+}
+
+#poster16:hover{
+    background-image: url(../img/BRFSTH.jpg);
+    margin-left: -120px;
+}
+
+#poster17:hover{
+    background-image: url(../img/STWH.jpg);
+    margin-left: -120px;
+}
+
+#poster18:hover{
+    background-image: url(../img/JSH.jpg);
+    margin-left: -120px;
 }
 
 /*DETAILS*/
