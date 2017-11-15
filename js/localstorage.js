@@ -16,18 +16,5 @@ if (localStorage){
             $(".password2").text(localStorage.getItem("password"));
         });
     });
-    
-   /* $(document).ready(function() {
-        $("#add").click(function() {
-            var added = $(".poster").val();
-            
-            localStorage.setItem("added", added);
-            
-            alert("Wonder Woman added to your watch list!");
-        });
-        
-        window.onload = function () {
-            $(".poster1").text(localStorage.getItem("added"));
-        };
-    });*/
 }
+

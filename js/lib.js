@@ -443,7 +443,7 @@ $(function(){
 });
 
 
-$(document).ready(function() {
+/*$(document).ready(function() {
     $("img").attr("src", "img/ww.jpg");
     $("img").attr("src", "img/tiu.jpg");
     $("img").attr("src", "img/riv.jpg");
@@ -462,4 +462,4 @@ $(document).ready(function() {
     $("img").attr("src", "img/bc.jpg");
     $("img").attr("src", "img/sw.jpg");
     $("img").attr("src", "img/js.jpg");
-});
+});*/
