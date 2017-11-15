@@ -223,6 +223,7 @@ a{
     margin-left: 75px;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 }
 
 .poster1:hover{
@@ -263,17 +264,24 @@ a{
 
 #forms1{
     margin-left: 5px;
-    background-color: floralwhite;
+    background-image: url(../img/background%20bruv.jpg);
     height: 120px;
-    width: 600px;
+    width: 900px;
+    background-size: cover;
+    margin-left: 50px;
+    align-items: center;
 }
 
 #forms1 h2{
     margin-left: 217px;
+    color: white;
+    font-weight: 200;
 }
 
 .name1{
     margin-left: 50px;
+    color: white;
+    font-weight: 100;
     
 }
 
@@ -337,6 +345,10 @@ a{
 
 .filtercontent3 input{
     width: 100px;
+}
+.glyphicon{
+    width: 40px;
+    
 }
 
 /*DETAILS*/
