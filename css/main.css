@@ -308,7 +308,7 @@ a{
     opacity: 2.0;
 }
 #sup-butt{
-    margin-left: 600px;
+    
     width: 200px;
     height: 30px;
 }
@@ -534,6 +534,10 @@ poster movie1:hover{
     margin-left: 65px;
 }
 
+#not-sure{
+	align-content: center;
+}
+
 /*LIST PAGES*/
 
 #information{
@@ -550,6 +554,77 @@ poster movie1:hover{
     color: white;
 }
 
+#title{
+    font-size: 25px;
+}
+
+#title2{
+    font-size: 25px;
+}
+
+#title3{
+    font-size: 25px;
+}
+
+#title4{
+    font-size: 25px;
+}
+
+#title5{
+    font-size: 25px;
+}
+
+#title6{
+    font-size: 25px;
+}
+
+#title7{
+    font-size: 25px;
+}
+
+#title8{
+    font-size: 25px;
+}
+
+#title9{
+    font-size: 25px;
+}
+
+#title10{
+    font-size: 25px;
+}
+
+#title11{
+    font-size: 25px;
+}
+
+#title12{
+    font-size: 25px;
+}
+
+#title13{
+    font-size: 25px;
+}
+
+#title14{
+    font-size: 25px;
+}
+
+#title15{
+    font-size: 25px;
+}
+
+#title16{
+    font-size: 25px;
+}
+
+#title17{
+    font-size: 25px;
+}
+
+#title18{
+    font-size: 25px;
+}
 
 /* @Media rules*/
 
@@ -560,6 +635,12 @@ poster movie1:hover{
     }
     #list .well{
     margin-top: 10px;
-    width: 57%;
+        width: 57%;}
+    
+    #trailer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
 }
     
