@@ -194,6 +194,16 @@ input{
 }
 
 /*HOME*/
+#message{
+    width: 100%;
+    border-bottom: ridge;
+    border-bottom-color: dimgrey;
+    border-bottom-width: thin;
+}
+.img-responsive:hover{
+    background-image: url(../img/)
+    
+}
 
 header{
     margin-bottom: 20px;
@@ -245,6 +255,7 @@ a{
     background-image: url(../img/backgroundz.jpg);
     background-size: cover;
     text-align: center;
+    margin-top: -20px;
 }
 
 
