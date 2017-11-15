@@ -294,10 +294,19 @@ a{
 #filterSubmit{
     background-color: orange;
     color: black;
+    opacity: 2.0;
 }
 
-
-
+#filterSubmit2{
+    background-color: orange;
+    color: black;
+    opacity: 2.0;
+}
+#filterSubmit3{
+    background-color: orange;
+    color: black;
+    opacity: 2.0;
+}
 #sup-butt{
     margin-left: 600px;
     width: 200px;
