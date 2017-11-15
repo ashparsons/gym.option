@@ -33,18 +33,13 @@ h3{
 	color: dimgray;
 }
 
-.link{
-    width: auto;
-    height: 33px;
-    margin-top: -20px;
-    background-color: dimgrey;
-}
 
-.link h5{
-    color: black;
-    margin-left: 300px;
-    
-    font-size: 27px;
+.link p{
+    color:white;
+    margin: auto;
+    font-size: 12pt;
+    font-weight: 100;
+    margin-top: 10px;
         
 }
 
@@ -154,7 +149,7 @@ button a{
 .name{
     margin-left:175px;
     color: dimgray;
-    font-weight: normal;
+    font-weight:100;
     letter-spacing: 2px;
 }
 
@@ -214,7 +209,13 @@ a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
+.poster1:hover{
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    opacity: 0.2;
+}
+}
 .poster2{
     margin-left: 75px;
     margin-top: 20px;
@@ -226,6 +227,20 @@ a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.container-2{
+    width: 100%;
+    height: 100%;
+    background-image:url(../img/backgroundz.jpg);
+    background-size: cover;
+}
+.link{
+    width: 100%;
+    height: 50px;
+    background-image: url(../img/backgroundz.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
 
 /*LIB*/
 
@@ -351,4 +366,3 @@ a{
     width: 57%;
 }
     
-}
