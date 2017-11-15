@@ -529,6 +529,12 @@ a{
     }
     #list .well{
     margin-top: 10px;
-    width: 57%;
+        width: 57%;}
+    
+    #trailer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
 }
     
