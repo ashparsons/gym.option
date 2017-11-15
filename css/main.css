@@ -295,7 +295,7 @@ a{
 
 
 #sup-butt{
-    margin-left: 600px;
+    
     width: 200px;
     height: 30px;
 }
@@ -364,6 +364,10 @@ a{
 
 #edit{
     margin-left: 65px;
+}
+
+#not-sure{
+	align-content: center;
 }
 
 /*LIST PAGES*/
