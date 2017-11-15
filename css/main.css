@@ -295,17 +295,46 @@ a{
     background-color: orange;
     color: black;
     opacity: 2.0;
+    font-weight: 200;
+    letter-spacing: 2pt;
 }
 
 #filterSubmit2{
     background-color: orange;
     color: black;
     opacity: 2.0;
+    font-weight: 200;
+    letter-spacing: 2pt;
+    
 }
 #filterSubmit3{
     background-color: orange;
     color: black;
     opacity: 2.0;
+    font-weight: 200;
+    letter-spacing: 2pt;
+    
+}
+#filterSubmit:hover{
+    background-color: black;
+    color: orange;
+    opacity: 5.0;
+    font-weight: 200;
+    letter-spacing: 2pt;
+}
+#filterSubmit2:hover{
+    background-color: black;
+    color: orange;
+    opacity: 5.0;
+    font-weight: 200;
+    letter-spacing: 2pt;
+}
+#filterSubmit3:hover{
+    background-color: black;
+    color: orange;
+    opacity: 5.0;
+    font-weight: 200;
+    letter-spacing: 2pt;
 }
 #sup-butt{
     
@@ -515,9 +544,6 @@ a{
 #titled{
     color: white;
 }
-poster movie1:hover{
-    background-image: url(../img/WH.jpg);
-}
 
 /*DETAILS*/
 
@@ -624,6 +650,15 @@ poster movie1:hover{
 
 #title18{
     font-size: 25px;
+    
+}
+#access{
+    margin-top: 20px;
+    margin-right: -50px;
+    width: 200px;
+    background-color: orange;
+    letter-spacing: 2pt;
+    
 }
 
 /* @Media rules*/
@@ -642,5 +677,10 @@ poster movie1:hover{
     padding-bottom: 20px;
     padding-left: 10px;
 }
+}
+#sup-butt{
+    background-color: orange;
+    letter-spacing: 2pt;
+    font-weight: 200;
 }
     
