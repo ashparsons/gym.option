@@ -362,6 +362,14 @@ a{
 .glyphicon{
     width: 40px;
     
+    
+}
+.glyphicon:hover{
+    background-color: black;
+    opacity: 0.2;
+}
+.btn btn-warning btn-primary{
+    margin-top: 5px;
 }
 .well{
     background-image: url(../img/backgroundz.jpg);
@@ -424,6 +432,18 @@ a{
 #date18{
     color: grey;
 }
+#datea{
+    color: grey;
+}
+#dateb{
+    color: grey;
+}
+#datec{
+    color: grey;
+}
+#dated{
+    color: grey;
+}
 #title{
     color: white;
 }
@@ -482,6 +502,21 @@ a{
 }
 #title18{
     color: white;
+}
+#titlea{
+    color: white;
+}
+#titleb{
+    color: white;
+}
+#titlec{
+    color: white;
+}
+#titled{
+    color: white;
+}
+poster movie1:hover{
+    background-image: url(../img/WH.jpg);
 }
 
 /*DETAILS*/
