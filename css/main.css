@@ -291,9 +291,22 @@ a{
     font-size: 100px;
     margin-left: 260px;
 }
+#filterSubmit{
+    background-color: orange;
+    color: black;
+    opacity: 2.0;
+}
 
-
-
+#filterSubmit2{
+    background-color: orange;
+    color: black;
+    opacity: 2.0;
+}
+#filterSubmit3{
+    background-color: orange;
+    color: black;
+    opacity: 2.0;
+}
 #sup-butt{
     
     width: 200px;
@@ -349,6 +362,126 @@ a{
 .glyphicon{
     width: 40px;
     
+}
+.well{
+    background-image: url(../img/backgroundz.jpg);
+    border-color: black;
+}
+#date{
+    color: grey;
+}
+#date1{
+    color: grey;
+}
+#date2{
+    color: grey;
+}
+#date3{
+    color: grey;
+}
+#date4{
+    color: grey;
+}
+#date5{
+    color: grey;
+}
+#date6{
+    color: grey;
+}
+#date7{
+    color: grey;
+}
+#date8{
+    color: grey;
+}
+#date9{
+    color: grey;
+}
+#date10{
+    color: grey;
+}
+#date11{
+    color: grey;
+}
+#date12{
+    color: grey;
+}
+#date13{
+    color: grey;
+}
+#date14{
+    color: grey;
+}
+#date15{
+    color: grey;
+}
+#date16{
+    color: grey;
+}
+#date17{
+    color: grey;
+}
+#date18{
+    color: grey;
+}
+#title{
+    color: white;
+}
+
+#title2{
+    color: white;
+}
+#title3{
+    color: white;
+}
+#title4{
+    color: white;
+}
+#title5{
+    color: white;
+}
+#title6{
+    color: white;
+}
+#title{
+    color: white;
+}
+#title7{
+    color: white;
+}
+#title8{
+    color: white;
+}
+#title9{
+    color: white;
+}
+#title10{
+    color: white;
+}
+#title11{
+    color: white;
+}
+#title12{
+    color: white;
+}
+#title13{
+    color: white;
+}
+#title14{
+    color: white;
+}
+#title15{
+    color: white;
+}
+#title16{
+    color: white;
+}
+
+#title17{
+    color: white;
+}
+#title18{
+    color: white;
 }
 
 /*DETAILS*/
